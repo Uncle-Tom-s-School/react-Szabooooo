@@ -4,8 +4,8 @@ import BeerCard from "./components/BeerCard"
 export type BeerCardType ={
     image:string,
     name: string,
-    abv: number,
-    volume: number,
+    abv: string,
+    volume: string,
     price: number,
     available: boolean
 }
